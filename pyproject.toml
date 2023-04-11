@@ -5,6 +5,7 @@ description = ""
 authors = ["czheo <1692400+czheo@users.noreply.github.com>"]
 readme = "README.md"
 repository = "https://github.com/czheo/tiktokenize"
+license = "GPL-3.0-or-later"
 
 [tool.poetry.dependencies]
 python = "^3.10"
