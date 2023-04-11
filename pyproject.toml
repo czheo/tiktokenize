@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tiktokenize"
+version = "0.0.1"
+description = ""
+authors = ["czheo <1692400+czheo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tiktoken = "^0.3.3"
+termcolor = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tokenize = "tiktokenize.tokenize:cli"
