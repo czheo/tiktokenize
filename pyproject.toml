@@ -16,4 +16,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-tokenize = "tiktokenize.tokenize:cli"
+tiktokenize = "tiktokenize.tokenize:cli"
